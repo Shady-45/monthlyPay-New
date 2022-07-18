@@ -1,0 +1,26 @@
+.fifth {
+    background-color: black;
+    text-align: center;
+    
+    color: rgb(0, 184, 153);
+    height: 90vh;
+}
+.fifth-h1 {
+    padding-top: 330px;
+    font-size: 60px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.comming-2::before {
+    content: "\2022";
+    color: rgb(0, 184, 153);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    
+  }
+
+.comming-2 p{
+    margin-top: -19px;
+  }
