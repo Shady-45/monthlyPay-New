@@ -33,46 +33,36 @@ const Navbar = () => {
       <IconContext.Provider value={{ color: "#fff" }}>
         <div className="navbar">
           <div className="navbar-container container">
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              ZEN<span className="monthly-new view">i5</span>
-            </Link>
+            <div className="nav-logo">
+              <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                ZEN<span className="monthly-new view">i5</span>
+              </Link>
+            </div>
             <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
                 <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                  About
+                  Student
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                  Blog
+                  College
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                  Cards
-                </Link>
-              </li>
-
-              <li className="nav-item">
-                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                  Offers
-                </Link>
-              </li>
-
-              <li className="nav-item">
-                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                  Contact
+                  Contact Us
                 </Link>
               </li>
               <li className="nav-btn">
                 {button ? (
                   <Link to="/sign-up" className="btn-link">
-                    <Button buttonStyle="btn--outline">Sign Up</Button>
+                    <Button buttonStyle="btn--outline">Pay Fee here</Button>
                   </Link>
                 ) : (
                   <Link
@@ -81,7 +71,7 @@ const Navbar = () => {
                     onClick={closeMobileMenu}
                   >
                     <Button buttonStyle="btn--outline" buttonSize="btn--mobile">
-                      SIGN UP
+                      Pay Fee here
                     </Button>
                   </Link>
                 )}

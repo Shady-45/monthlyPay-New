@@ -32,6 +32,10 @@
     max-width: 50%;
     flex-basis: 50%;
   }
+  .first{
+   justify-content: flex-start;
+   
+  }
   
   .home__hero-text-wrapper {
     max-width: 540px;
@@ -55,6 +59,69 @@
     line-height: 1.1;
     font-weight: 600;
     color: #f7f8fa;
+    width: 123%;
+  }
+  .heading-mainInfo{
+  margin-top: -3rem;
+  }
+  .main-info-one{
+    color: white;
+    font-weight: 100;
+    font-size: 1.7rem;
+    width: 86%;
+    margin-top: 4px;
+    letter-spacing: 1px;
+    font-family: 'Edu TAS Beginner', cursive;
+  
+  }
+  .info-images-class{
+    height: 6rem;
+  }
+  .info-images-img{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  .info-images-class-apple{
+    height: 4rem;
+margin-top: 1rem;
+margin-bottom: -7px;
+  }
+  .second-mainInfo{
+    color: white;
+    font-weight: 700;
+    margin-top: -1rem;
+letter-spacing: 1px;
+  }
+  .main-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  .main-form input{
+    padding: 0.8rem 7rem;
+border-radius: 2rem;
+margin-left: 0rem;
+margin-top: 15px;
+background-color: rgb(230, 224, 224);
+
+  }
+  .main-form form input::placeholder{
+    padding-left: 2rem;
+  }
+  .main-form button{
+    padding: 0.6rem 2rem;
+border-radius: 2rem;
+margin-top: 10px;
+margin-left: 7rem;
+background-color: #00b899;
+color: black;
+font-weight: bold;
+border: 2px solid #00b899;
+cursor: pointer;
+  }
+  .heading-col{
+    font-weight: bolder;
   }
   
   .dark {
@@ -90,6 +157,10 @@
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;
+  }
+  .new-line{
+    background-color: rgb(0, 184, 153);
+    padding: 2px;
   }
   
   @media screen and (max-width: 991px) {

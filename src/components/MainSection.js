@@ -41,10 +41,20 @@ const MainSection = ({
                   India's first Neo bank for
                   <span style={{ color: "rgb(0, 184, 153)" }}>
                     {" "}
-                    Gen Z Students
-                  </span>{" "}
-                  Payments{" "}
+                    College Students
+                  </span>
+                  <p className="main-info-one">
+                    [A Smart Prepaid Card for Students]
+                  </p>
                 </h1>
+                <div className="info-images-img">
+                  <img className="info-images-class" src="/google.png" alt="" />
+                  <img
+                    className="info-images-class-apple"
+                    src="/appple.png"
+                    alt=""
+                  />
+                </div>
 
                 <p
                   className={
@@ -67,6 +77,8 @@ const MainSection = ({
         </div>
       </div>
 
+      <hr className="new-line" />
+
       <div data-aos="zoom-in" className="home__hero-section darkBg">
         <div className="container">
           <div
@@ -79,13 +91,19 @@ const MainSection = ({
             <div className="col">
               <div className="home__hero-text-wrapper">
                 <div className="top-line"></div>
-                <h1 className="heading">
-                  Hi, We are here to{" "}
-                  <span style={{ color: "rgb(0, 184, 153)" }}>Zenify</span>{" "}
-                  Students
-                </h1>
+                <div className="heading-mainInfo">
+                  <h1 className="heading">
+                    Looking for{" "}
+                    <span
+                      className="heading-col"
+                      style={{ color: "rgb(0, 184, 153)" }}
+                    >
+                      Campus Cards
+                    </span>{" "}
+                    For your College?{" "}
+                  </h1>
 
-                {/* <p className="home__hero-subtitle">
+                  {/* <p className="home__hero-subtitle">
                   We are limitless prepaid card just for GenZ
                 </p>
                 <p className="home__hero-subtitle">A RFID enabled debit card</p>
@@ -95,7 +113,7 @@ const MainSection = ({
                 <p className="home__hero-subtitle">
                   A Centralized & highly secured Payment system for Management
                 </p> */}
-                <ul className="coming-1">
+                  {/*  <ul className="coming-1">
                   <li className="comming-2">
                     <p className="home__hero-subtitle">
                       We are{" "}
@@ -128,13 +146,42 @@ const MainSection = ({
                       system for Management
                     </p>
                   </li>
-                </ul>
+                </ul> */}
+                </div>
+                <p className="second-mainInfo">
+                  Join us to provide your Students Smart Prepaid Card Solution
+                  to Cater all their Payment.
+                </p>
+                <div className="main-form">
+                  <form
+                    action="
+                "
+                  >
+                    <input type="text" name="txt" placeholder="Name" id="" />
+                    <br />
+                    <input
+                      type="tel"
+                      name=""
+                      placeholder="Mobile number"
+                      id=""
+                    />
+                    <br />
+                    <input
+                      type="text"
+                      name=""
+                      placeholder="Institute name"
+                      id=""
+                    />
+                    <br />
+                    <button>Contact Us</button>
+                  </form>
+                </div>
               </div>
             </div>
 
             <div className="col">
               <div className="home__hero-img-wrapper">
-                <img src="/bg-0.png" className="home__hero-img" />
+                <img src="/school-4.png" className="home__hero-img" />
               </div>
             </div>
           </div>

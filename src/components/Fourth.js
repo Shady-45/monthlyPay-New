@@ -9,10 +9,32 @@ const Fourth = () => {
 
   return (
     <div>
+      <hr className="new-line-1" />
       <section class="categories" data-aos="zoom-in">
         <div class="container categories__container">
           <div class="categories__left">
-            <h1 style={{ color: "black" }}>Gen Z</h1>
+            <h1 className="four-info">One Card Solution</h1>
+            <div className="bullet-points">
+              <ul>
+                <li>ID Card</li>
+                <li>Student discounts</li>
+                <li>Attendance</li>
+                <li>Fee Payments</li>
+
+                <li>One Tap Payments</li>
+                <li>ERP Integrations</li>
+              </ul>
+            </div>
+            <img className="cater-blonde" src="/blode.png" alt="" />
+            {/*  <h1 style={{ color: "black" }}>Gen Z</h1>
+            <p className="new-cards">
+              [RFID enabled Prepaid Wallet Smart Card]
+            </p>
+            <div className="genz-images">
+              <img className="genz-img" src="/shield.png" alt="" />
+              <img className="genz-img" src="/lock.png" alt="" />
+              <img className="genz-img" src="/privacy.png" alt="" />
+            </div> */}
             {/*  <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
               cupiditate perspiciatis illo, sed dolorem facere possimus ipsum
@@ -20,7 +42,7 @@ const Fourth = () => {
             </p> */}
           </div>
           <div class="categories__right">
-            <article class="category">
+            <article class="category first">
               {/*  <span class="category__icon">
                   <i class="uil uil-bitcoin-circle"></i> 
               </span>  */}
@@ -49,7 +71,7 @@ const Fourth = () => {
               <img src="/pano-3.svg" data-aos="fade-left" alt="" />
             </article>
 
-            <article class="category">
+            <article class="category first">
               {/* <span class="category__icon">
                 <i class="uil uil-usd-circle"></i>
               </span>
