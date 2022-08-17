@@ -99,21 +99,25 @@ letter-spacing: 1px;
     margin-top: 3rem;
   }
   .main-form input{
-    padding: 0.8rem 7rem;
+    width: 20rem;
+    height: 2rem;
+    padding: 1rem;
 border-radius: 2rem;
 margin-left: 0rem;
 margin-top: 15px;
 background-color: rgb(230, 224, 224);
 
   }
-  .main-form form input::placeholder{
-    padding-left: 2rem;
+  input::placeholder{
+   width: 100%;
+   margin-right: 2px;
+ 
   }
   .main-form button{
     padding: 0.6rem 2rem;
 border-radius: 2rem;
 margin-top: 10px;
-margin-left: 7rem;
+margin-left: 5rem;
 background-color: #00b899;
 color: black;
 font-weight: bold;

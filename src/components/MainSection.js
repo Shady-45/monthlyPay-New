@@ -157,7 +157,13 @@ const MainSection = ({
                     action="
                 "
                   >
-                    <input type="text" name="txt" placeholder="Name" id="" />
+                    <input
+                      className="form-name"
+                      type="text"
+                      name="txt"
+                      placeholder="Name"
+                      id=""
+                    />
                     <br />
                     <input
                       type="tel"

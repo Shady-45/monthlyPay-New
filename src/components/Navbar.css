@@ -35,6 +35,8 @@
   .nav-logo{
     gap: 2px;
     font-weight: bolder;
+    display: flex;
+align-items: center;
   }
   .view{
     margin-left: 3px;
@@ -157,6 +159,7 @@
       position: absolute;
       top: 0;
       left: 0;
+      align-items: center;
       transform: translate(25%, 50%);
     }
   
